@@ -1,0 +1,23 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{16B9E1F1-421D-EDD1-585A-95B65EDFB73B}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "OIT426OIT",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "RenderDocPlugin",
+			"Enabled": true
+		},
+		{
+			"Name": "HoudiniEngine",
+			"Enabled": false
+		}
+	]
+}

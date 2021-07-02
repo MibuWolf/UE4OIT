@@ -1,0 +1,20 @@
+Begin Object Class=/Script/Engine.Material Name="XN_002_01_pants_OBC_Mat"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_0"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_0"
+      Texture=Texture2D'"/Game/XN_002_01_pants_OBC.XN_002_01_pants_OBC"'
+      MaterialExpressionEditorX=-300
+      MaterialExpressionGuid=B72B6E85440ABCAFBF5E28BC264A848C
+      Material=Material'"XN_002_01_pants_OBC_Mat"'
+   End Object
+   BaseColor=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_0"')
+   Expressions(0)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_0"'
+   StateId=FF51269041228493524917B99649857E
+   ReferencedTextureGuids(0)=5F073072475AB217AC2A6B88DEF6758A
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=AEAB6B454473B95C0BA26E9519F2916C
+End Object

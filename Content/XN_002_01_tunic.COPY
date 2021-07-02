@@ -1,0 +1,35 @@
+Begin Object Class=/Script/Engine.Material Name="XN_002_01_tunic"
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_1"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_0"
+      Texture=Texture2D'"/Game/XN_002_01_tunic_OBC.XN_002_01_tunic_OBC"'
+      MaterialExpressionEditorX=240
+      MaterialExpressionEditorY=-320
+      MaterialExpressionGuid=2CD912B14BD8E4E582EFA687B0BD535D
+      Material=Material'"XN_002_01_tunic"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_1"
+      Texture=Texture2D'"/Game/XN_002_01_tunic_N.XN_002_01_tunic_N"'
+      SamplerType=SAMPLERTYPE_Normal
+      MaterialExpressionEditorX=240
+      MaterialExpressionEditorY=256
+      MaterialExpressionGuid=9B8054834ACA361683EBE89CCDD8EFCD
+      Material=Material'"XN_002_01_tunic"'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   BaseColor=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_0"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   Normal=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_1"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   Expressions(0)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_0"'
+   Expressions(1)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_1"'
+   bCanMaskedBeAssumedOpaque=True
+   StateId=B0EE9A214AEF43B24DF17DBDAD90CBF9
+   ReferencedTextureGuids(0)=BAC200F548A4C0507DB6DD98054B5B5C
+   ReferencedTextureGuids(1)=63AC60304F1CBF83FB5AECBDF2ED5FE0
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=A110707442D412BBAFACE398C1FCB5E8
+End Object

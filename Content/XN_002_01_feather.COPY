@@ -1,0 +1,34 @@
+Begin Object Class=/Script/Engine.Material Name="XN_002_01_feather"
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_1"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_0"
+      Texture=Texture2D'"/Game/XN_002_01_feather_OBC.XN_002_01_feather_OBC"'
+      MaterialExpressionEditorX=240
+      MaterialExpressionEditorY=-320
+      MaterialExpressionGuid=1C8E657548621C46DD694682882DA235
+      Material=Material'"XN_002_01_feather"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_1"
+      Texture=Texture2D'"/Game/XN_002_01_feather_OBC.XN_002_01_feather_OBC"'
+      MaterialExpressionEditorX=200
+      MaterialExpressionEditorY=256
+      MaterialExpressionGuid=3B7DD9C147B574E3EAEB069247A6AF91
+      Material=Material'"XN_002_01_feather"'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   BaseColor=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_0"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   Opacity=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_1"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   BlendMode=BLEND_Translucent
+   Expressions(0)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_0"'
+   Expressions(1)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_1"'
+   bCanMaskedBeAssumedOpaque=True
+   StateId=BB5AA78F4874135318570CA0D1442156
+   ReferencedTextureGuids(0)=6810DAE8456362B57FEDD5AE970B69C1
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=CBE6A54446E6540D658852ADF150B105
+End Object

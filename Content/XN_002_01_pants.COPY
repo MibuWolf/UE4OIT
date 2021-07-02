@@ -1,0 +1,54 @@
+Begin Object Class=/Script/Engine.Material Name="XN_002_01_pants"
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_3"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_0"
+      Texture=Texture2D'"/Game/XN_002_01_pants_OBC.XN_002_01_pants_OBC"'
+      MaterialExpressionEditorX=-464
+      MaterialExpressionEditorY=-176
+      MaterialExpressionGuid=297090504EB3F04E460AB48325BC30CC
+      Material=Material'"XN_002_01_pants"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_2"
+      Texture=Texture2D'"/Game/XN_002_01_pants_M.XN_002_01_pants_M"'
+      MaterialExpressionEditorX=-592
+      MaterialExpressionEditorY=192
+      MaterialExpressionGuid=C185209D4E42E228E84B6CAFD11AE8CE
+      Material=Material'"XN_002_01_pants"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_3"
+      Texture=Texture2D'"/Game/XN_002_01_pants_N.XN_002_01_pants_N"'
+      SamplerType=SAMPLERTYPE_Normal
+      MaterialExpressionEditorX=-608
+      MaterialExpressionEditorY=448
+      MaterialExpressionGuid=141CA2574A61672FB36E1FAB6B09F21A
+      Material=Material'"XN_002_01_pants"'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   BaseColor=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_0"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   Metallic=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_2"',OutputIndex=2,Mask=1,MaskG=1)
+   Roughness=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_2"',OutputIndex=1,Mask=1,MaskR=1)
+   Normal=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_3"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   Opacity=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_0"',OutputIndex=4,Mask=1,MaskA=1)
+   BlendMode=BLEND_Translucent
+   AmbientOcclusion=(Expression=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_2"',OutputIndex=3,Mask=1,MaskB=1)
+   TwoSided=True
+   TranslucencyLightingMode=TLM_Surface
+   bUsedWithSkeletalMesh=True
+   Expressions(0)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_0"'
+   Expressions(1)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_2"'
+   Expressions(2)=MaterialExpressionTextureSample'"MaterialExpressionTextureSample_3"'
+   bCanMaskedBeAssumedOpaque=True
+   StateId=04DA6A2D49128FDFB1FF0D80E97EDC5C
+   ReferencedTextureGuids(0)=CE2461F3479A8106E27DDE9716C0B15C
+   ReferencedTextureGuids(1)=5F073072475AB217AC2A6B88DEF6758A
+   ReferencedTextureGuids(2)=16A9602D4B77E27FD5BE499675E9A44E
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=2C722FFD478BB2C1BA53C78FA307DABE
+End Object
